@@ -22,7 +22,7 @@
     
             driver.get(baseURL);       // Tarayıcıyı açıp kullanıcının verdiği url adresini açar
     
-            String actualData = driver.getTitle();    // Değişken oluşturduk ve site başlığını değişkene atar
+            String actualData = driver.getTitle();    // Değişken oluşturur ve site başlığını değişkene atar
     
             if(expectedData.equals(actualData)){    // Değerlerin eşitliğini kontrol eder
                 System.out.print("Test Passed.");
