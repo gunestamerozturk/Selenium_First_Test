@@ -1,5 +1,5 @@
 # Selenium_First_Test
-{
+
 package org.example;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -35,4 +35,4 @@ public class Main {
 
     }
 }
-}
+
